@@ -1,7 +1,7 @@
 import json
 import streamlit as st
 
-r"$\textsf{\Large This program alllows to see the genes responsible for the specific property}$"
+r"$\textsf{\Large This program allows to see the genes responsible for the specific property}$"
 uploaded_file = st.file_uploader(r"$\textsf{\normalsize Choose a file}$")
 if uploaded_file is not None:
     data=json.load(uploaded_file)
